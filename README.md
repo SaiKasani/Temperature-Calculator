@@ -1,35 +1,16 @@
-# Temperature-Calculator
 
-This repository contains a C++ program for converting temperatures between Fahrenheit and Celsius. The program offers both standard output for a range of temperatures and user-specific conversions.
+# Temperature Calculator
+Description
+This C++ program allows users to convert temperatures between Fahrenheit and Celsius. It offers two modes: a standard output mode that displays a table of conversions over a specified range, and a user-specific mode that enables individual temperature conversions based on user input.
 
 Features
-Standard Output: Displays a table of Fahrenheit to Celsius conversions over a specified range.
-User Input: Allows users to convert temperatures from Fahrenheit to Celsius or vice versa.
-Error Handling: Provides feedback for invalid inputs.
+Standard Output: Generates a table of Fahrenheit to Celsius conversions based on user-defined lower and upper limits.
+User Input: Users can convert a specific temperature from Fahrenheit to Celsius or vice versa.
+Error Handling: The program provides feedback for invalid input, ensuring a smooth user experience.
 Requirements
 C++11 or later
 A C++ compiler (e.g., g++, clang++)
-How to Run
-Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/yourusername/temperature-calculator.git
-cd temperature-calculator
-Compile the code:
-
-bash
-Copy code
-g++ -o temperature_calculator temperature_calculator.cpp
-Run the executable:
-
-bash
-Copy code
-./temperature_calculator
-Usage
-When prompted, enter 0 to display standard temperature conversions.
-Enter X to convert a specific temperature.
-Follow the on-screen instructions to input temperature values.
 Example Output
 mathematica
 Copy code
